@@ -7,7 +7,6 @@ async def onStart(_):
 
 handlers.registred_handlers(dp)
 
-
 executor.start_polling(dp, skip_updates=True, on_startup=onStart)
 
 

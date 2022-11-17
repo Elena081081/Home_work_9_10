@@ -4,20 +4,16 @@ max_take = 28
 player_take = 0
 choise_level = 1
 
-
 def get_player() -> int:
     global total_candies
     return total_candies
-
 def set_player(player):
     global players
     players = player
 
-
 def get_total_candies() -> int:
     global total_candies
     return total_candies
-
 def set_total_candies(new_value: int):
     global total_candies
     total_candies = new_value
@@ -25,7 +21,6 @@ def set_total_candies(new_value: int):
 def get_max_take():
     global max_take
     return max_take
-
 def set_max_take(new_value: int):
     global max_take
     max_take = new_value
@@ -36,6 +31,7 @@ def get_choise_level() -> int:
 def set_choise_level(new_value: int):
     global choise_level
     choise_level = new_value
+
 def get_player_take():
     global player_take
     return player_take
@@ -55,4 +51,3 @@ def check_win(count: int):
         return False
     else:
         return True
-
