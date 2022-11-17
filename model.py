@@ -2,7 +2,7 @@ players = 0
 total_candies = 150
 max_take = 28
 player_take = 0
-number = 1
+choise_level = 1
 
 
 def get_player() -> int:
